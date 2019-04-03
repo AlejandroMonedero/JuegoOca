@@ -9,14 +9,16 @@ package org.vipsion.oca.modelo;
  *
  * @author alejandromonederoacebal
  */
-public class Dado2 extends Casilla {
+public class CasillaDado extends Casilla {
     
-    public Dado2(int posicion) {
+    public CasillaDado(int posicion) {
         super(posicion);
     }
     
+    //Comentario para el método posaFicha
     @Override
     public void posaFicha(Ficha ficha){
+        ficha.setTurnosExtra(1);
         
     }
     

@@ -21,6 +21,7 @@ public class Casilla {
 
     /**
      *<p>Establece la posición de la ficha</p> 
+     * Comentario para el git
      * @param ficha  ficha que se posa en esa casilla
      * @see Ficha#setPosicion(int)
      */

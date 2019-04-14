@@ -9,15 +9,15 @@ package org.vipsion.oca.modelo;
  *
  * @author alejandromonederoacebal
  */
-public class CasillaDado extends Casilla {
+public class CasillaCalavera extends Casilla {
     
-    public CasillaDado(int posicion) {
+    public CasillaCalavera(int posicion) {
         super(posicion);
     }
     
     @Override
-    public void posaFicha(Ficha ficha){
-        
+    public void posaFicha(Ficha ficha) {
+        ficha.setPosicion(1);
     }
     
 }

@@ -43,6 +43,8 @@ public class Tablero {
         casillas.set(25,new CasillaDado(26));
         casillas.set(52,new CasillaDado(53));
         casillas.set(57,new CasillaCalavera(58));
+        casillas.set(5, new CasillaPuente(6));
+        casillas.set(11, new CasillaPuente(12));
     }
 
     /**

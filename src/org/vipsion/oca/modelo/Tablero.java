@@ -46,6 +46,7 @@ public class Tablero {
         casillas.set(5, new CasillaPuente(6));
         casillas.set(11, new CasillaPuente(12));
         casillas.set(51,new CasillaCarcel(52));
+        casillas.set(18,new CasillaPosada(19));
     }
 
     /**

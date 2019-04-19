@@ -29,10 +29,18 @@ public class Casilla {
         ficha.setPosicion(posicion);
     }
 
+    /**
+     *Devuelve la posición de la casilla
+     * @return posicion 
+     */
     public int getPosicion() {
         return posicion;
     }
 
+    /**
+     * Establece la posición de la casilla
+     * @param posicion a determinar
+     */
     public void setPosicion(int posicion) {
         this.posicion = posicion;
     }
